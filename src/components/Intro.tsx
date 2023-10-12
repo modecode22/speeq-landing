@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-
 const Intro = () => {
   return (
     <main className="flex mt-16 flex-col lg:max-w-3xl sm:max-w-2xl max-w-xl p-5">
@@ -12,7 +11,7 @@ const Intro = () => {
       </h1>
       <section className="relative w-full aspect-[10/7] rounded-lg overflow-hidden">
         <Image
-          src="/app.png"
+          src="/app.jpg"
           fill
           alt="SPEEQ Image"
           className="object-cover"
