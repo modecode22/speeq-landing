@@ -73,8 +73,8 @@ const Orb: React.FC<OrbProps> = ({ color, children }) => {
         style={{
           background: colors[color],
           borderRadius: "50%",
-          width: "100px",
-          height: "100px",
+          width: "200px",
+          height: "200px",
           boxShadow: "0 0 30px 5px rgba(255, 255, 255, 0.3)",
           border: "2px solid rgba(255, 255, 255, 0.2)",
         }}

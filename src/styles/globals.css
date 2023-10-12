@@ -38,3 +38,23 @@
 
 *{
   font-family: 'Roboto', sans-serif;}
+  .smooth-fade {
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+[hidden] {
+    opacity: 0;
+}
+
+.back-image {
+    background-image: url('/back.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+    /* reduse the z index */
+    z-index: -1;
+}

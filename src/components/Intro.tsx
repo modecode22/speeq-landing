@@ -1,15 +1,20 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Intro = () => {
   return (
-    <main className="flex flex-col max-w-xl p-5">
+    <main className="flex mt-16 flex-col lg:max-w-3xl sm:max-w-2xl max-w-xl p-5">
     <h1 className="flex  gap-2">
       This is{" "}
-      <div className="bg-gradient-to-tr from-blue-500 via-primary-500 to-happy-500 text-transparent bg-clip-text text-4xl font-bold">
+      <div className="bg-gradient-to-tr from-info-500 via-primary-500 to-primary-600 text-transparent bg-clip-text text-4xl font-bold">
         <strong>SPEEQ</strong>
       </div>
     </h1>
-    <h3>Introduction:</h3>
+<section className="relative w-full aspect-[10/7] rounded-lg overflow-hidden">
+
+    <Image src={'/app.png'} fill alt="SPEEQ Image" className="object-cover" />
+</section>
+    <h3 className='mt-5'>Introduction:</h3>
     <h5>
       Welcome to Speeq, the revolutionary open-source application that
       translates your voice in real-time! Designed to integrate seamlessly

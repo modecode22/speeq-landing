@@ -10,7 +10,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 
 const UiPage = () => {
   return (
-    <section className="flex flex-col gap-20 p-5">
+    <section className="flex flex-col gap-20 p-5 mt-16">
       <section className="flex flex-col gap-5 items-center">
         <h1 className="w-full text-primary-500">Buttons :</h1>
       <Tooltip name="transparent button" direction="bottom">
