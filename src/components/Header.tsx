@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsDownload, BsGithub } from "react-icons/bs";
 import { MdDesignServices } from "react-icons/md";
-
 const Header = () => {
   return (
     <header className="w-full z-50  h-16 fixed inset-0 bg-dark-900/50 backdrop-blur-2xl flex  justify-between items-center">
@@ -25,7 +24,7 @@ const Header = () => {
           <span className="md:flex hidden">github</span>
         </Link>
         
-        <Link href={'/speeqx64.zip'} className={cn(buttonVariant({variant:'dark-outline'}))}>
+        <Link href={'/speeq.zip'} className={cn(buttonVariant({variant:'dark-outline'}))}>
           <BsDownload className="text-2xl" />
           <span className="md:flex hidden">Download For Windows</span>
         </Link>
